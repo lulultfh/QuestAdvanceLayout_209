@@ -1,6 +1,7 @@
 package com.example.prak3_209
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -34,7 +35,9 @@ fun ActivitasPertama(modifier: Modifier){
             .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
-            )){  }
+            )){
+            Row() {  }
+        }
     }
 
 }
