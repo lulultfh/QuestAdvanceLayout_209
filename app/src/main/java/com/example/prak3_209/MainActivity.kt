@@ -20,9 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Prak3_209Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    ActivitasPertama(
+                        modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
             }
