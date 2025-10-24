@@ -111,7 +111,9 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.Green
             )) {
-            Row() {  }
+            Row() {
+                val fotofoto = painterResource(id = R.drawable.logoumy)
+            }
         }
         Box(modifier = Modifier
             .fillMaxSize()){
