@@ -74,7 +74,7 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.Blue
             )) {
             Row(){
-
+                val foto = painterResource(id = R.drawable.logoumy)
             }
         }
         Box(modifier = Modifier
